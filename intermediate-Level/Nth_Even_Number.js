@@ -19,7 +19,7 @@ function nthEven(n){
   }
   
   console.log(nthEven(1298734));
-// Solution Two
+// Simple Solution
 const nthEven=n=>n*2-2;
 
 
