@@ -21,10 +21,23 @@
  * C          100
  * D          500
  * M          1,000
+ /
+ /*
+ * Thousands Hundreds	Tens	Units
+ * 1	M	C	X	I
+ * 2	MM	CC	XX	II
+ * 3	MMM	CCC	XXX	III
+ * 4		CD	XL	IV
+ * 5		D	L	V
+ * 6		DC	LX	VI
+ * 7		DCC	LXX	VII
+ * 8		DCCC	LXXX	VIII
+ * 9		CM	XC	IX
+ * 10               X
  * */
-function solution (roman) {
     // complete the solution by transforming the
     // string roman numeral into an integer
+function solution (roman) {
     // I, II, III, IV, V, VI, VII, VIII, IX, and X represent 1, 2, 3, 4, 5, 6, 7, 8, 9 and 10
     return 0;
 
